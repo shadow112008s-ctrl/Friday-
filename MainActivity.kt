@@ -16,7 +16,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
+import androidx.compose.ui.Alignment*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
@@ -31,7 +31,7 @@ import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
 import org.json.JSONArray
 import org.json.JSONObject
-
+[0;32m[1m==> [0m[1mAvailable at your primary URL https://friday-y34b.onrender.com[0m
 // ---- Colors matching the Friday visual identity ----
 private val Bg = Color(0xFF0F1420)
 private val Surface = Color(0xFF161D2E)
@@ -39,7 +39,7 @@ private val Border = Color(0xFF1D2436)
 private val Amber = Color(0xFFF2A93B)
 private val TextPrimary = Color(0xFFE8EAF0)
 private val TextMuted = Color(0xFF8B92A8)
-
+[0;32m[1m==> [0m[1mAvailable at your primary URL https://friday-y34b.onrender.com[0m
 private const val BACKEND_URL = "https://YOUR-BACKEND-URL.example.com"
 
 data class ChatMessage(val role: String, val text: String)
